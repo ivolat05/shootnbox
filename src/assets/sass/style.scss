@@ -1,5 +1,31 @@
 @import "../sass/vendor/font.scss";
 @import "../sass/vendor/reset.scss";
-.test {
-    background: #fff;
+
+* {
+    box-sizing: border-box;
+    font-family: "PP Telegraf";
+    font-weight: normal;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+}
+
+@import "../sass/blocks/header.scss";
+@import "../sass/blocks/entrance.scss";
+@import "../sass/blocks/footer.scss";
+@import "../sass/blocks/entrance__form.scss";

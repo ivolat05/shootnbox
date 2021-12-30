@@ -1,0 +1,8 @@
+.entrance {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    background: url("../../assets/img/b-1.png") no-repeat center left,
+        url("../../assets/img/b-5.png") no-repeat bottom right/contain;
+}
