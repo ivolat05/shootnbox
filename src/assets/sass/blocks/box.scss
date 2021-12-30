@@ -20,8 +20,15 @@
     flex-shrink: 0;
 }
 .box-right {
-    padding: 125px 46px 45px 64px;
+    padding: 65px 46px 45px 64px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.open-popup {
+    margin: 30px;
+    cursor: pointer;
 }
