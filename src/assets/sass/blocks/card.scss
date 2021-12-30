@@ -1,0 +1,78 @@
+.card {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 35px;
+    background: grba(97, 97, 96, 0.07);
+}
+.card-title {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    color: #e7388c;
+    margin-bottom: 17px;
+}
+
+.card-text {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    color: #e7388c;
+    margin-bottom: 62px;
+}
+
+.card-img {
+    width: 935px;
+    height: 622px;
+}
+.card__box {
+}
+.card__box-img {
+    display: table;
+    min-width: 35px;
+    min-height: 32px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card-marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card__box-text {
+    font-family: "Rock Salt";
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 86px;
+    color: #c5a448;
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+}
+
+.card-btn {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 21px;
+    color: #ffffff;
+    background: #e7388c;
+    width: 225px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-container {
+    max-width: 1475px;
+    display: flex;
+    margin: 42px auto 22px;
+    justify-content: flex-end;
+}
