@@ -1,5 +1,6 @@
 @import "../sass/vendor/font.scss";
 @import "../sass/vendor/reset.scss";
+@import "../sass/vendor/nouislider.min.scss";
 
 * {
     box-sizing: border-box;
@@ -29,3 +30,6 @@ ul {
 @import "../sass/blocks/entrance.scss";
 @import "../sass/blocks/footer.scss";
 @import "../sass/blocks/entrance__form.scss";
+@import "../sass/blocks/box.scss";
+@import "../sass/blocks/menu.scss";
+@import "../sass/blocks/popup.scss";

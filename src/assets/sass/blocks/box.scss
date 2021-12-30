@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    justify-content: start;
+    .footer__wrapp,
+    .footer__wrapp-link {
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 19px;
+    }
+    background: rgba(97, 97, 96, 0.07);
+}
+.box-left {
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fff;
+    border-right: 1px solid #616160;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.box-right {
+    padding: 125px 46px 45px 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
