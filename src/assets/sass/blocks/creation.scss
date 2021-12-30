@@ -1,0 +1,20 @@
+.box-creation {
+    width: 80%;
+    position: relative;
+}
+.box-creation-title {
+    margin-top: 36px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #e7388c;
+}
+
+.box__cration-wrapp {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
