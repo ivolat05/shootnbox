@@ -10,3 +10,13 @@
     align-items: center;
     justify-content: center;
 }
+.logo-return {
+    position: relative;
+    &::before {
+        content: url("../../assets/img/return.svg");
+        position: absolute;
+        top: 50%;
+        transform: translateY(-34%);
+        left: -30px;
+    }
+}

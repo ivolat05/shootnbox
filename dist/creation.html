@@ -21,12 +21,151 @@
             <header class="header">
                 <div class="container">
                     <div class="header__wrapp">
-                        <a href="#" class="logo">
+                        <a href="#" class="logo logo-return">
                             <img src="./assets/img/logo.svg" alt="" class="logo-img">
                         </a>
                     </div>
                 </div>
-            </header>        <div class="footer">
+            </header>        <div class="creation">
+                <div class="creation__titile">
+                    Modifier le texte
+                </div>
+                <div class="creation__wrapper">
+                    <div class="creation__row">
+                        Ajouter une zone de texte
+                        <button class="creation-btn">
+                            <img src="./assets/img/crous.svg" alt="" class="cration-btn-img">
+                        </button>
+                    </div>
+                    <div class="creation__row-shell creation__row-shell-2">
+                        <input class="creation__input-text" type="text" placeholder="| Champ texte">
+                    </div>
+                    <div class="creation__row-shell creation__row-shell-3">
+                        <div class="creation-subtitle">
+                            Police & taille
+                        </div>
+                        <select class='creation-select'>
+                            <option class="creation__select-option">
+                                Satisfy
+                            </option>
+                            <option class="creation__select-option">
+                                Satisfy
+                            </option>
+                            <option class="creation__select-option">
+                                Satisfy
+                            </option>
+                            <option class="creation__select-option">
+                                Satisfy
+                            </option>
+                        </select>
+                    </div>
+            
+                    <div class="creation__row-2 creation__row-shell creation__row-shell-4  ">
+                        Taille
+                        <div class="cration__row-2-wrapp">
+                            <div id='input-range' class="creation__input-range --width"></div>
+                            <input id='input__rage-num-1' type="number" class="creation-input-num">
+                        </div>
+                    </div>
+                    <div class="creation__row-3 creation__row-shell">
+                        <div class="creation__row-3-wrapp">
+                            <button class="creation-btn-2">
+                                <img src="./assets/img/G.svg" alt="" class="creation-btn-img">
+                            </button>
+                            <button class="creation-btn-2">
+                                <img src="./assets/img/b-3.svg" alt="" class="creation-btn-img">
+                            </button>
+                            <button class="creation-btn-2 creation-btn-2-3">
+                                <img src="./assets/img/U.svg" alt="" class="creation-btn-img">
+                            </button>
+                        </div>
+                        <div class="creation__row-3-wrapp-2">
+                            <button class="creation-btn-2 creation-btn-2-4">
+                                <img src="./assets/img/grup-1.png" alt="" class="creation-btn-img">
+                            </button>
+                            <button class="creation-btn-2 creation-btn-2-5">
+                                <img src="./assets/img/Group-2.svg" alt="" class="creation-btn-img">
+                            </button>
+                            <button class="creation-btn-2">
+                                <img src="./assets/img/Group-3.svg" alt="" class="creation-btn-img">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="creation__row-shell creation__row-shell-5">
+                        <div class="creation__row-4">
+                            Couleur du texte
+                            <label class="label__input-wrapp">
+                                <span class="label-input-color">
+                                    <input class="creation__input-color" type="color" value="#C9A53D">
+                                </span>
+                            </label>
+                        </div>
+                        <div class="creation__row-5">
+                            <label class="creation__label">
+                                <input type="checkbox" class="creation__label-checkbox-h">
+                                <span class="creation__label-span">
+                                    Dégradé
+                                </span>
+                            </label>
+                            <label class="label__input-wrapp input__hiden --hiden">
+                                <span class="label-input-color">
+                                    <input class="creation__input-color" type="color" value="#D22F25">
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+            
+                    <div class="creation__row-6 creation__row-shell">
+                        Ombre portée
+                        <label class="creation__label-2">
+                            <input type="checkbox" class="creation__label-radio">
+                            <span class="creation__label-raio-span"></span>
+                        </label>
+                    </div>
+                    <div class="creation__row-7 creation__row-shell creation__row-shell-6">
+                        Contour du texte
+                        <label class="label__input-wrapp">
+                            <span class="label-input-color">
+                                <input class="creation__input-color" type="color" value="#010202">
+                            </span>
+                        </label>
+                    </div>
+                    <div class="creation__row-8 creation__row-shell">
+                        Largeur du contour
+                        du texte
+                        <div class="creation__row-8-box">
+                            <div id='input-range-2' class="creation__input-range creation__input-range --width-2"></div>
+                            <input id='input__rage-num-2' class="creation-input-num" type="number">
+                        </div>
+                    </div>
+                    <button class="creation__button open-popup-cteation" data-popup='#creation__popup-one'>
+                        Valider
+                    </button>
+                </div>
+            
+                <div class="popup__bg">
+                    <div id='creation__popup-one' class="creation__popup popup">
+                        <img class="creation__popup-img" src="./assets/img/creation-popup-img.svg" alt="">
+                        <div class="creation__popup-title">
+                            Etes-vous sûr de valider votre maquette?
+                        </div>
+                        <div class="creation__popup-text">
+                            Une fois votre maquette validée, vous ne pourrez<br>
+                            plus revenir dessus.
+                        </div>
+                        <div class="creation__popup-row">
+            
+                            <button class="cratino__popup-btn close-popup">
+                                Annuler
+                            </button>
+                            <button class="cratino__popup-btn close-popup">
+                                Valider
+                            </button>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>        <div class="footer">
                 <div class="footer__wrapp">
                     01.45.01.66.66 |
                     <a class="footer__wrapp-link" href="mailto:contact@shootnbox.fr">contact@shootnbox.fr </a>
