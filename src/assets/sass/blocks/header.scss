@@ -13,7 +13,7 @@
 .logo-return {
     position: relative;
     &::before {
-        content: url("../../assets/img/return.svg");
+        content: url("../../img/return.svg");
         position: absolute;
         top: 50%;
         transform: translateY(-34%);

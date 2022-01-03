@@ -3,14 +3,14 @@
         Modifier le texte
     </div>
     <div class="creation__wrapper">
-        <div class="creation__row">
+        <div class="creation__row open-popup-title" data-popup='#creation__popup-title'>
             Ajouter une zone de texte
             <button class="creation-btn">
-                <img src="./assets/img/crous.svg" alt="" class="cration-btn-img">
+                <img src="./img/crous.svg" alt="" class="cration-btn-img" data-popup='#creation__popup-title'>
             </button>
         </div>
         <div class="creation__row-shell creation__row-shell-2">
-            <input class="creation__input-text" type="text" placeholder="| Champ texte">
+            <input class="creation__input-text" type="text" placeholder="Champ texte">
         </div>
         <div class="creation__row-shell creation__row-shell-3">
             <div class="creation-subtitle">
@@ -40,28 +40,21 @@
             </div>
         </div>
         <div class="creation__row-3 creation__row-shell">
+            <div class="creation__row-3-title">
+                Style
+            </div>
             <div class="creation__row-3-wrapp">
                 <button class="creation-btn-2">
-                    <img src="./assets/img/G.svg" alt="" class="creation-btn-img">
+                    <img src="./img/G.svg" alt="" class="creation-btn-img">
                 </button>
                 <button class="creation-btn-2">
-                    <img src="./assets/img/b-3.svg" alt="" class="creation-btn-img">
+                    <img src="./img/b-3.svg" alt="" class="creation-btn-img">
                 </button>
                 <button class="creation-btn-2 creation-btn-2-3">
-                    <img src="./assets/img/U.svg" alt="" class="creation-btn-img">
+                    <img src="./img/U.svg" alt="" class="creation-btn-img">
                 </button>
             </div>
-            <div class="creation__row-3-wrapp-2">
-                <button class="creation-btn-2 creation-btn-2-4">
-                    <img src="./assets/img/grup-1.png" alt="" class="creation-btn-img">
-                </button>
-                <button class="creation-btn-2 creation-btn-2-5">
-                    <img src="./assets/img/Group-2.svg" alt="" class="creation-btn-img">
-                </button>
-                <button class="creation-btn-2">
-                    <img src="./assets/img/Group-3.svg" alt="" class="creation-btn-img">
-                </button>
-            </div>
+
         </div>
         <div class="creation__row-shell creation__row-shell-5">
             <div class="creation__row-4">
@@ -117,7 +110,7 @@
 
     <div class="popup__bg">
         <div id='creation__popup-one' class="creation__popup popup">
-            <img class="creation__popup-img" src="./assets/img/creation-popup-img.svg" alt="">
+            <img class="creation__popup-img" src="./img/creation-popup-img.svg" alt="">
             <div class="creation__popup-title">
                 Etes-vous sûr de valider votre maquette?
             </div>
@@ -134,7 +127,20 @@
                     Valider
                 </button>
             </div>
-
+        </div>
+        <div id='creation__popup-title' class="creation__popup-title-form popup">
+            <div class="creation__popup-title-form-title">
+                Veuillez saisir votre texte
+            </div>
+            <input class='creation__popup-title-input' type="text">
+            <div class="creation__popup-row creation__popup-title-row">
+                <button class="cratino__popup-btn close-popup">
+                    Annuler
+                </button>
+                <button class="cratino__popup-btn close-popup">
+                    Ajouter
+                </button>
+            </div>
         </div>
     </div>
 </div>

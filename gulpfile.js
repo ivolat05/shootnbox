@@ -23,10 +23,10 @@ const del = require("del");
 var path = {
     build: {
         html: "dist/",
-        js: "dist/assets/js/",
-        css: "dist/assets/css/",
-        images: "dist/assets/img/",
-        fonts: "dist/assets/font/"
+        js: "dist/js/",
+        css: "dist/css/",
+        images: "dist/img/",
+        fonts: "dist/font/"
     },
     src: {
         html: "src/*.html",

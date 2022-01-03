@@ -89,6 +89,7 @@ function leafing() {
 leafing();
 popupOpen('.open-popup');
 popupOpen('.open-popup-cteation');
+popupOpen('.open-popup-title');
 
 // ползунок
 // rangeSliderId - id div

@@ -1,0 +1,34 @@
+.creation__popup-title-form-title {
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+
+    color: #e7388c;
+}
+.creation__popup-title-input {
+    border: 0.75px solid #909090;
+    border-radius: 8px;
+    height: 37px;
+    padding: 9px 13px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #616160;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.creation__popup-title-form {
+    width: 630px;
+    padding: 40px 40px;
+}
+
+.creation__popup-title-row {
+    justify-content: flex-end;
+    .close-popup {
+        width: 200px;
+        margin-left: 10px;
+    }
+}

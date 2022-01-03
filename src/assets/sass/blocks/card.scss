@@ -19,14 +19,18 @@
     line-height: 30px;
     text-align: center;
     color: #e7388c;
-    margin-bottom: 62px;
+    margin-bottom: 15px;
 }
 
 .card-img {
-    width: 935px;
-    height: 622px;
+    width: 835px;
+    height: 522px;
 }
-.card__box {
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 79vh;
 }
 .card__box-img {
     display: table;
@@ -73,6 +77,6 @@
 .card-container {
     max-width: 1475px;
     display: flex;
-    margin: 42px auto 22px;
+    margin: 15px auto 15px;
     justify-content: flex-end;
 }
